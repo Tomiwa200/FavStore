@@ -59,7 +59,7 @@ This project represents an **E-commerce Platform** to demonstrate complex state 
 ### Google Fonts
 * It is used to implement optimized web fonts.
 
-# File Structure
+# Folder Structure
 ```
 ├── src/                       
 │   ├── app/
@@ -71,7 +71,7 @@ This project represents an **E-commerce Platform** to demonstrate complex state 
 │   │   ├── auth/              # Credential schemas and authentication flows
 │   │   ├── cart/              # Step wizards, and validation
 │   │   └── products/          # Catalog grids, search filters, and cards
-│   ├── store/                 # Zustand persistent local store setups
+│   ├── store/                 # Zustand local store setups
 │   └── utils/                 # Supabase server/client initialization logic
 
 ```
