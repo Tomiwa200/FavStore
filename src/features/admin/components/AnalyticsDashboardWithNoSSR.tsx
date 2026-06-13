@@ -16,9 +16,10 @@ import { Suspense } from "react";
   })
 
   export default function AnalyticsDashboardWithNoSSR() {
-    return 
+    return (
     <Suspense fallback={<div>Loading dashboard metrics...</div>}>
       <BarChart />
     </Suspense>
+  );
   }
   
