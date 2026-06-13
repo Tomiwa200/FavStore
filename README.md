@@ -19,44 +19,44 @@ This project represents an **E-commerce Platform** to demonstrate complex state 
   * View all available products in inventory
   * Add custom product to database
 
-## Tech Stack Used
-**NEXTjs Framework**
+# Tech Stack Used
+### NEXTjs Framework
 * For handling routing, server-side rendering (SSR), and static site generation.
 * It makes my app fast by pre-rendering pages and optimizing how data is fetched.
 
-**Shadcn UI**
+### Shadcn UI
 * It provides raw, uncompiled, fully editable UI source files that can be used into my project. 
 
-**Typescript Language**
+### Typescript Language
 * Enforces strict, type-safe development across the codebase.
 * It catches coding and type errors during compilation before your code is ever built or deployed.
 
-**Supabase Authentication**
+### Supabase Authentication
 * It manages user logins, sign-ups, and session security.
 
-**Supabase Database**
+### Supabase Database
 *  A PostgreSQL database to store users, products and orders data
 *  Used to create images storage bucket
 
-**Paystack API**
+### Paystack API
 * Handles secure payment processing
 
-**Zustand**
+### Zustand
 * Manages local client state.
 * Ensures persistence of items added to cart
 
-**Tanstack Query**
+### Tanstack Query
   * Manages remote server data
   *  It fetches, caches, auto-refetches, and updates remote data from the database.
     
-**React Hook Form**
+### React Hook Form
 * Handles complex form validation and step workflows
 * It captures checkout address details, credentials, and user data while checking fields against Zod schema conditions to minimize re-renders.
 
-**TailwindCSS**
+### TailwindCSS
  * It is used to style components directly in the TSX files using pre-defined classes.
 
-**Google Fonts**
+### Google Fonts
 * It is used to implement optimized web fonts.
 
 ## Installation
