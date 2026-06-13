@@ -1,7 +1,7 @@
 import InventoryManager from "@/features/admin/components/InventoryManager";
 import AnalyticsDashboardWithNoSSR from "@/features/admin/components/AnalyticsDashboardWithNoSSR";
 
-
+export const dynamic = "force-dynamic";
 
 export default function AdminControlPage() {
   return (
