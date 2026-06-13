@@ -1,6 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
+import { Suspense } from "react";
 
 
   const BarChart = dynamic(
@@ -15,6 +16,9 @@ import dynamic from "next/dynamic";
   })
 
   export default function AnalyticsDashboardWithNoSSR() {
-    return <BarChart />
+    return 
+    <Suspense fallback={<div>Loading dashboard metrics...</div>}>
+      <BarChart />
+    </Suspense>
   }
   
