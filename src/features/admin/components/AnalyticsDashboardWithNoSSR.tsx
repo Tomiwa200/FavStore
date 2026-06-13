@@ -17,9 +17,7 @@ import { Suspense } from "react";
 
   export default function AnalyticsDashboardWithNoSSR() {
     return (
-    
       <BarChart />
-   
   );
   }
   

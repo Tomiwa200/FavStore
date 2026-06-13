@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { useCartStore } from "@/store/useCartStore";
 import HydrationGuard from "@/components/shared/HydrationGuard";
 import Link from "next/link";
