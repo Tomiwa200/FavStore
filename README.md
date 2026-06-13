@@ -19,6 +19,32 @@ This project represents an **E-commerce Platform** to demonstrate complex state 
   * View all available products in inventory
   * Add custom product to database
 
+# Folder Structure
+```
+├── src/                       
+│   ├── app/
+        └── (main pages)/      # Grouped pages                
+│   ├── components/            # Global visual UI
+│   │   └── shared/            # shared components
+│   ├── features/              
+│   │   ├── admin/             # Analytics graphs and inventory dashboards
+│   │   ├── auth/              # Credential schemas and authentication flows
+│   │   ├── cart/              # Step wizards, and validation
+│   │   └── products/          # Catalog grids, search filters, and cards
+│   ├── store/                 # Zustand local store setups
+│   └── utils/                 # Supabase server/client initialization logic
+
+```
+
+# Installation
+
+First, run the development server:
+
+```bash
+pnpm install- to install node modules
+pnpm dev - to open project on browser
+```
+
 # Tech Stack Used
 ### NEXTjs Framework
 * For handling routing, server-side rendering (SSR), and static site generation.
@@ -59,30 +85,6 @@ This project represents an **E-commerce Platform** to demonstrate complex state 
 ### Google Fonts
 * It is used to implement optimized web fonts.
 
-# Folder Structure
-```
-├── src/                       
-│   ├── app/
-        └── (main pages)/      # Grouped pages                
-│   ├── components/            # Global visual UI
-│   │   └── shared/            # shared components
-│   ├── features/              
-│   │   ├── admin/             # Analytics graphs and inventory dashboards
-│   │   ├── auth/              # Credential schemas and authentication flows
-│   │   ├── cart/              # Step wizards, and validation
-│   │   └── products/          # Catalog grids, search filters, and cards
-│   ├── store/                 # Zustand local store setups
-│   └── utils/                 # Supabase server/client initialization logic
-
-```
-
-# Installation
-
-First, run the development server:
-
-```bash
-pnpm install- to install node modules
-pnpm dev - to open project on browser
 
 ```
 
